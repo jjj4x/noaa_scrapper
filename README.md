@@ -48,6 +48,11 @@ cd noaa_scrapper
 pip install .  # or "python setup.py install"
 ```
 
+Or, install from the GitHub transparently:
+```shell script
+pip install git+git://github.com/jjj4x/noaa_scrapper.git
+```
+
 ## Uninstall
 [-> Outline](#outline)
 
@@ -101,7 +106,6 @@ It **doesn't make sense to use more workers than years** (e.g., 10 workers for 4
 The compression and decompression parts are CPU-bound.
 
 If compression isn't used (by default), the results will be plaintext files.
-
 
 ## Examples
 [-> Outline](#outline)
