@@ -49,12 +49,14 @@ pip install .  # or "python setup.py install"
 ```
 
 ## Uninstall
+[-> Outline](#outline)
 
 ```shell script
 pip uninstall noaa_scrapper
 ```
 
 ## Help
+[-> Outline](#outline)
 
 Available options:
 ```shell script
@@ -102,6 +104,7 @@ If compression isn't used (by default), the results will be plaintext files.
 
 
 ## Examples
+[-> Outline](#outline)
 
 The defaults are 2 workers, 1901 and 1902 years, without compression:
 ```shell script
